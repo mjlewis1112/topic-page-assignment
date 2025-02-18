@@ -1,1 +1,9 @@
 /* add css */
+.pagination {
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex; 
+    justify-content: space-evenly;
+    padding: 15px;
+    width: 96%;
+}
