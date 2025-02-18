@@ -1,4 +1,27 @@
 /* add css */
+html {
+    font-size: 62.5%
+}
+img {
+    width: 100%
+}
+body {
+    color:aliceblue;
+    font-size: 1.6rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p {
+    margin-bottom: .67em;
+}
+nav, footer {
+    background-color: blue;
+}
+footer {
+    text-align: center;
+    font-family: cursive;
+    text-decoration: underline;
+    padding: .2em;
+}
 .pagination {
     margin-top: auto;
     margin-bottom: auto;
