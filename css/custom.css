@@ -5,6 +5,9 @@ nav {
     background-color:blue;
     padding: 1rem;
 }
+nav, footer {
+    background-color: blue;
+}
 img {
     width: 500px;
     margin: auto;
