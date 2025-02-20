@@ -30,7 +30,36 @@ svg {
 /*--
 Document Styles --*/
 
+nav {
+    background-color: rgba(65, 65, 251, 0.983);
+    color:azure;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+nav div {
+    display: flex;
+}
+.logo {
+    align-items: center;
+    gap: 2rem;
+}
+.links {
+    gap: 4rem;
+}
 nav img {
     height: 60px;
     width: auto; 
 }
+
+
+/*--Media Queries--*/
+
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        gap: 2rem;
+    }    
+}
+
