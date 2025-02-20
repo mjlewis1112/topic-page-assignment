@@ -16,30 +16,21 @@ h6 {font-size: 1.6rem;}
 
 h1, h2, h3, h4, h5, h6{font-weight: 600;}
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    background-color:blue;
-    padding: 1rem;
-}
-nav, footer {
-    background-color: blue;
-    padding: 1rem;
-}
-footer {
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    text-decoration: underline;
-    padding: 1rem;
-    margin-bottom: 0 auto;
-}
-img {
-    width: 500px;
-    margin: auto;
+img{
+    width:100%;
     height: auto;
 }
-header h1 {
-    margin: 0 auto;
-    padding: 0 auto;
-    text-align: center;
+svg { 
+    height: 100%;
+    width: 100%;
+    fill: currentColor;
+    pointer-events: none;
+}
+
+/*--
+Document Styles --*/
+
+nav img {
+    height: 60px;
+    width: auto; 
 }
