@@ -9,6 +9,12 @@ nav, footer {
     background-color: blue;
     padding: 1rem;
 }
+footer {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    padding: .2rem
+}
 img {
     width: 500px;
     margin: auto;
