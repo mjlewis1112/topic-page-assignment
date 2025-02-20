@@ -13,7 +13,8 @@ footer {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     text-decoration: underline;
-    padding: .2rem
+    padding: 1rem;
+    margin-bottom: 0 auto;
 }
 img {
     width: 500px;
