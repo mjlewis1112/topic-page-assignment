@@ -90,8 +90,9 @@ div.text {
         flex-direction: column;
         gap: 2rem;
     }
-    section {
+    section.even, section.odd { 
         grid-template-columns: 1fr;
     }
+    section.even div.poster { 
+        order: -1;
 }
-
