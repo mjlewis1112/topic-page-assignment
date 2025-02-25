@@ -20,8 +20,8 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 800;
 }
 
-img{
-    width:25%;
+img { 
+    width: 75%;
     height: auto;
 }
 svg { 
@@ -42,7 +42,7 @@ nav, footer {
     align-items: center;
     padding: 1rem 2rem;
 footer {
-    margin-bottom: ;
+    margin-bottom: 
 }
 }
 nav div {
@@ -85,7 +85,7 @@ div.text {
 
 /*--Media Queries--*/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px)
     nav {
         flex-direction: column;
         gap: 2rem;
