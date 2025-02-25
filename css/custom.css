@@ -34,13 +34,16 @@ svg {
 /*--
 Document Styles --*/
 
-nav {
+nav, footer {
     background-color: rgba(65, 65, 251, 0.983);
     color:azure;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
+footer {
+    margin-bottom: ;
+}
 }
 nav div {
     display: flex;
@@ -57,9 +60,28 @@ nav div {
 }
 nav img {
     height: 60px;
-    width: auto; 
+    width: auto;
+main {
+    max-width: 78vw;
+    margin: auto auto;
 }
-
+}
+section {
+    display: grid;
+    margin: 3rem auto;
+    grid-gap: 3rem;
+}
+section.odd {
+    grid-template-columns: 8fr 4fr;
+}
+section.even {
+    grid-template-columns: 4fr 8fr;
+}
+div.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 /*--Media Queries--*/
 
@@ -67,6 +89,9 @@ nav img {
     nav {
         flex-direction: column;
         gap: 2rem;
-    }    
+    }
+    section {
+        grid-template-columns: 1fr;
+    }
 }
 
