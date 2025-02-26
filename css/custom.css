@@ -19,7 +19,6 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Passion One", serif;
     font-weight: 800;
 }
-
 img { 
     width: 75%;
     height: auto;
@@ -35,15 +34,12 @@ svg {
 Document Styles --*/
 
 nav, footer {
-    background-color: rgba(65, 65, 251, 0.983);
+    background-color: rgba(142, 22, 255, 0.983);
     color:azure;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-footer {
-    margin-bottom: 
-}
 }
 nav div {
     display: flex;
@@ -59,12 +55,12 @@ nav div {
     gap: 4rem;
 }
 nav img {
-    height: 60px;
+    height: 6rem;
     width: auto;
+}
 main {
     max-width: 78vw;
-    margin: auto auto;
-}
+    margin: auto;
 }
 section {
     display: grid;
@@ -85,7 +81,7 @@ div.text {
 
 /*--Media Queries--*/
 
-@media screen and (max-width: 768px)
+@media screen and (max-width: 768px) {
     nav {
         flex-direction: column;
         gap: 2rem;
@@ -95,4 +91,5 @@ div.text {
     }
     section.even div.poster { 
         order: -1;
+}
 }
