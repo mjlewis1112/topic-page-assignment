@@ -1,18 +1,40 @@
 /* add css */
 :root {
-    --bg: #121212;
+    --bg: #B7B1F2;
+    --lbg: #ffd1f3;
     --fg: #eaeaea;
-    --acc: #FF0000; 
+    --acc: #fa6b6b;
+    --head: "Lilita One", serif;
+    --body: "Raleway", serif;
 
+}
+a {
+    text-decoration: none;
+}
+a:link {
+    color: inherit;
+}
+a:visited {
+    color: inherit;
+}
+a:hover {
+    color: var(--acc);
+}
+a:active {
+    color: var(--acc);
 }
 html {
     font-size: 62.5%;
 }
 body {
     font-size: 1.6rem;
-    font-family: "Raleway", serif;
+    font-family: var(--body);
     font-weight: 400;
     line-height: 1.15;
+}
+body {
+    background: var(--lbg);
+    color: var(--fg);
 }
 h1 {font-size: 3.6rem;}
 h2 {font-size: 2.8rem;}
@@ -22,7 +44,7 @@ h5 {font-size: 1.8rem;}
 h6 {font-size: 1.6rem;}
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Lilita One", serif;
+    font-family: var(--head);
     font-weight: 800;
     color: var(--acc);
 }
@@ -41,8 +63,8 @@ svg {
 Document Styles --*/
 
 nav, footer {
-    background-color: rgba(142, 22, 255, 0.983);
-    color:azure;
+    background-color: var(--bg);
+    color: var(--fg);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -71,7 +93,6 @@ main {
     max-width: 78vw;
     padding: 2rem;
     margin: auto;
-    background-color: rgb(255, 180, 252);
 }
 section {
     display: grid;
@@ -88,6 +109,22 @@ div.text {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+.more-links {
+    color: var(--fg);
+    width: 14rem;
+    padding: 1rem 3rem;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 2rem auto;
+    border-radius: 2rem;
+    border: 2px solid var(--fg);
+    transition: all 150ms ease-in;
+}
+.more-links:hover {
+    background: var(--bg);
 }
 
 /*--Media Queries--*/
