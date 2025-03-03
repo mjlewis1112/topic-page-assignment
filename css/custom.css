@@ -61,7 +61,6 @@ svg {
 
 /*--
 Document Styles --*/
-
 nav, footer {
     background-color: var(--bg);
     color: var(--fg);
@@ -139,5 +138,5 @@ div.text {
     }
     section.even div.poster { 
         order: -1;
-}
+    }
 }
