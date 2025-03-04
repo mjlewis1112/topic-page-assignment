@@ -69,6 +69,9 @@ nav, footer {
     align-items: center;
     padding: 1rem 2rem;
 }
+footer {
+    justify-content: center;
+}
 nav div {
     display: flex;
 }
@@ -105,13 +108,13 @@ main {
     outline-offset: -2rem;
 }
 blockquote:before {
-    content: "";
+    content: '\0022';
     font-family: serif;
     font-weight: bolder;
     font-size: 8rem;
     position: relative;
     left: -5vw;
-    top: 6 vh;
+    top: 60px;
     color: var(-acc);
 }
 blockquote {
