@@ -3,6 +3,7 @@
     --bg: #f8ab9b;
     --lbg: #FCFFC1;
     --fg: #ffffff;
+    --text: #f7912b;
     --acc: #f8ab9b;
     --bq: #fcfcfc;
     --head: "Lilita One", serif;
@@ -35,7 +36,7 @@ body {
 }
 body {
     background: var(--lbg);
-    color: var(--fg);
+    color: var(--text);
 }
 h1 {font-size: 3.6rem;}
 h2 {font-size: 2.8rem;}
@@ -112,7 +113,7 @@ main {
     align-items: center;
     padding: 0 0 4rem 0;
     margin: 3rem auto;
-    outline: 2px dashed var(--bq);
+    outline: 2px dashed var(--text);
     outline-offset: -2rem;
 }
 blockquote:before {
@@ -123,12 +124,13 @@ blockquote:before {
     position: relative;
     left: -5vw;
     top: 60px;
-    color: var(--bq);
+    color: var(--fg);
 }
 blockquote {
     font-size: 3rem;
     max-width: 33vw;
     font-family: var(--head);
+    color: var(--fg);
 }
 .cite {
     font-family: var(--body);
