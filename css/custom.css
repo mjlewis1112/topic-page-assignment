@@ -1,7 +1,7 @@
 /* add css */
 :root {
     --bg: #f8ab9b;
-    --lbg: #FCFFC1;
+    --lbg: #f9fbd2;
     --fg: #ffffff;
     --text: #f7912b;
     --acc: #f8ab9b;
@@ -37,6 +37,7 @@ body {
 body {
     background: var(--lbg);
     color: var(--text);
+    font-weight: 500;
 }
 h1 {font-size: 3.6rem;}
 h2 {font-size: 2.8rem;}
@@ -192,3 +193,4 @@ body {
         order: -1;
     }
 }
+
