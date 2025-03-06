@@ -1,10 +1,10 @@
 /* add css */
 :root {
-    --bg: hsl(331, 90%, 88%);
-    --lbg: #f8f4d7;
-    --fg: #f7a63d;
-    --acc: #fc8eaa;
-    --bq: #fefefe;
+    --bg: #f8ab9b;
+    --lbg: #FCFFC1;
+    --fg: #feb83f;
+    --acc: #f8ab9b;
+    --bq: #feb83f;
     --head: "Lilita One", serif;
     --body: "Raleway", serif;
 
@@ -44,7 +44,13 @@ h4 {font-size: 2rem;}
 h5 {font-size: 1.8rem;}
 h6 {font-size: 1.6rem;}
 
-h1, h2, h3, h4, h5, h6 {
+h1 {
+    font-family: var(--head);
+    font-weight: 800;
+    color: var(--fg);
+}
+
+h2, h3, h4, h5, h6 {
     font-family: var(--head);
     font-weight: 800;
     color: var(--acc);
