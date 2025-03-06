@@ -1,9 +1,10 @@
 /* add css */
 :root {
-    --bg: #fec5ef;
-    --lbg: #fef9d4;
-    --fg: #fa7b3f;
-    --acc: #ff7698;
+    --bg: hsl(331, 90%, 88%);
+    --lbg: #f8f4d7;
+    --fg: #f7a63d;
+    --acc: #fc8eaa;
+    --bq: #fefefe;
     --head: "Lilita One", serif;
     --body: "Raleway", serif;
 
@@ -71,6 +72,7 @@ nav, footer {
 }
 footer {
     justify-content: center;
+    font-weight: bold;
 }
 nav div {
     display: flex;
@@ -97,14 +99,14 @@ main {
     margin: auto;
 }
 .quote {
-    background: var(--lbg);
+    background: var(--bg);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 0 0 4rem 0;
     margin: 3rem auto;
-    outline: 2px dashed var(--fg);
+    outline: 2px dashed var(--bq);
     outline-offset: -2rem;
 }
 blockquote:before {
@@ -115,7 +117,7 @@ blockquote:before {
     position: relative;
     left: -5vw;
     top: 60px;
-    color: var(-acc);
+    color: var(--bq);
 }
 blockquote {
     font-size: 3rem;
