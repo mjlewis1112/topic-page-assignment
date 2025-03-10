@@ -183,9 +183,13 @@ body {
     margin-bottom: auto;
     display: flex;
     justify-content: space-between;
-    width: 96%;
+    width: 100%;
+p {
+    font-size: 1.8rem;
+    justify-content: center;
     position: relative;
-    top: 4px;
+    top: 8px;
+}
 }
 a.button {
     border: 2px solid #ffffff;
