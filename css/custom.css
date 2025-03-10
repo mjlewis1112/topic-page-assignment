@@ -1,10 +1,10 @@
 /* add css */
 :root {
-    --bg: #f8ab9b;
-    --lbg: #f9fbd2;
+    --bg: #eb8bb7;
+    --lbg: #f9fbe0;
     --fg: #ffffff;
-    --text: #f7912b;
-    --acc: #f8ab9b;
+    --text: #c2bdcf;
+    --acc: #eb8bb7;
     --bq: #fcfcfc;
     --head: "Lilita One", serif;
     --body: "Raleway", serif;
@@ -47,7 +47,7 @@ h6 {font-size: 1.6rem;}
 
 h1 {
     font-family: var(--head);
-    font-weight: 800;
+    font-weight: lighter;
     color: var(--fg);
 }
 
