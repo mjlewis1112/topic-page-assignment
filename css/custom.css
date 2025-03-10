@@ -75,12 +75,11 @@ nav, footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 1rem;
+    padding: 1rem 2rem;
 }
 footer {
     justify-content: space-evenly;
     font-weight: bold; 
-    align-items: center;
 }
 nav div {
     display: flex;
@@ -183,7 +182,7 @@ body {
     margin-bottom: auto;
     display: flex;
     justify-content: space-between;
-    padding: 8px;
+    padding: 1rem 2rem;
     width: 96%;
     position: relative;
     top: 4px;
