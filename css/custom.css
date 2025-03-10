@@ -75,11 +75,12 @@ nav, footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem;
+    padding: 1rem 1rem;
 }
 footer {
-    justify-content: center;
-    font-weight: bold;
+    justify-content: space-evenly;
+    font-weight: bold; 
+    align-items: center;
 }
 nav div {
     display: flex;
@@ -181,9 +182,11 @@ body {
     margin-top: auto;
     margin-bottom: auto;
     display: flex;
-    justify-content:space-between;
-    padding: 10px;
+    justify-content: space-between;
+    padding: 8px;
     width: 96%;
+    position: relative;
+    top: 4px;
 }
 a.button {
     border: 2px solid #ffffff;
