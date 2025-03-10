@@ -79,7 +79,8 @@ nav, footer {
 }
 footer {
     justify-content: space-evenly;
-    font-weight: bold; 
+    font-weight: bold;
+    font-size: 1.6rem;
 }
 nav div {
     display: flex;
@@ -182,7 +183,6 @@ body {
     margin-bottom: auto;
     display: flex;
     justify-content: space-between;
-    padding: 1rem 2rem;
     width: 96%;
     position: relative;
     top: 4px;
@@ -195,7 +195,7 @@ a.button {
     border-radius: 200px;
     font-family: var(--body);
     font-weight: 400;
-    font-size: 90%;
+    font-size: 1.6rem;
 }
 a.button:hover {background-color: #76b3aa;}
 
